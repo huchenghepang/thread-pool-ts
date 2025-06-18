@@ -1,6 +1,6 @@
 {
   "name": "thread-pool-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于 worker_threads 的通用线程池任务执行器（支持并发控制、顺序输出、超时终止）",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/thread-pool-ts"
+    "url": "https://github.com/huchenghepang/thread-pool-ts"
   },
   "author": "jeff",
   "license": "MIT",
@@ -29,6 +29,9 @@
     "@types/node": "^24.0.3",
     "typescript": "^5.4.0"
   },
+  "files": [
+    "dist"
+  ],
   "engines": {
     "node": ">=16.0.0"
   }
