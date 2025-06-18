@@ -1,0 +1,35 @@
+{
+  "name": "thread-pool-ts",
+  "version": "1.0.0",
+  "description": "基于 worker_threads 的通用线程池任务执行器（支持并发控制、顺序输出、超时终止）",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "clean": "rm -rf dist",
+    "start:example": "ts-node example/test.ts",
+    "test": "node dist/examples/test.js"
+  },
+  "keywords": [
+    "thread",
+    "worker_threads",
+    "nodejs",
+    "concurrency",
+    "typescript",
+    "pool"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/thread-pool-ts"
+  },
+  "author": "jeff",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
