@@ -50,3 +50,5 @@ pool.run<string, string>({
 ```
 
 ---
+
+[![npm version](https://img.shields.io/npm/v/thread-pool-ts.svg)](https://www.npmjs.com/package/thread-pool-ts)
