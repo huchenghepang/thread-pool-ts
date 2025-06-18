@@ -1,6 +1,6 @@
 {
   "name": "thread-pool-ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "基于 worker_threads 的通用线程池任务执行器（支持并发控制、顺序输出、超时终止）",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
