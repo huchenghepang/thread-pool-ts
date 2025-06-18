@@ -13,9 +13,9 @@
 #### 📦 安装
 
 ```bash
-npm install your-thread-pool
+npm install thread-pool-ts
 # or
-pnpm add your-thread-pool
+pnpm add thread-pool-ts
 ```
 
 ---
